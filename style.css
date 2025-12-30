@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5f7fa;
+    background-color: #178a37;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +50,7 @@ header p {
 }
 
 button {
-    background-color: #2e7d32;
+    background-color: #24a82a;
     color: white;
     border: none;
     padding: 10px 16px;
