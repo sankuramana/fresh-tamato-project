@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Fresher Tamato</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<div class="container">
 
-<h1>🍅 Fresher Tamato</h1>
-<p>Fresh tomatoes directly from our farm</p>
+  <header>
+    <h1>🍅 Fresher Tomato</h1>
+    <p>Fresh tomatoes directly from our farm</p>
+    <div class="cart">Cart: <span id="cart-count">0</span> items</div>
+  </header>
 
-<h3>Cart: <span id="cart-count">0</span> items</h3>
-
-<div class="product">
+  <div class="product-card">
     <h2>Organic Fresh Tomatoes</h2>
-    <p>Price: ₹40 / kg</p>
+    <div class="price">₹40 / kg</div>
     <button onclick="addToCart('Tomatoes')">Add to Cart</button>
+  </div>
+
+  <button class="order-btn" onclick="orderNow()">Order Now (WhatsApp)</button>
+
 </div>
-
-<br>
-
-<button onclick="orderNow()">Order Now (WhatsApp)</button>
-
-<script src="script.js"></script>
-</body>
-</html>
