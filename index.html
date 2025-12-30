@@ -1,17 +1,23 @@
 <div class="container">
 
-  <header>
-    <h1>🍅 Fresher Tomato</h1>
-    <p>Fresh tomatoes directly from our farm</p>
-    <div class="cart">Cart: <span id="cart-count">0</span> items</div>
+  <header class="header">
+    <h1>🍅 Fresh Tomato</h1>
+    <p class="subtitle">Fresh tomatoes directly from our farm</p>
+    <div class="cart">
+      🛒 Cart: <span id="cart-count">0</span> items
+    </div>
   </header>
 
-  <div class="product-card">
+  <section class="product-card">
     <h2>Organic Fresh Tomatoes</h2>
-    <div class="price">₹40 / kg</div>
-    <button onclick="addToCart('Tomatoes')">Add to Cart</button>
-  </div>
+    <p class="price">₹40 / kg</p>
+    <button class="add-btn" onclick="addToCart('Tomatoes')">
+      ➕ Add to Cart
+    </button>
+  </section>
 
-  <button class="order-btn" onclick="orderNow()">Order Now (WhatsApp)</button>
+  <button class="order-btn" onclick="orderNow()">
+    📦 Order Now via WhatsApp
+  </button>
 
 </div>
